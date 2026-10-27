@@ -2,10 +2,13 @@
 
 ## Fixed
 
-- [#7830](https://github.com/hyperf/hyperf/pull/7830) Fixed bug that command crontab closes the worker-exit coordinator.
 - [#7820](https://github.com/hyperf/hyperf/pull/7820) Fixed bug that command cannot work for `PHP 8.5`.
 - [#7821](https://github.com/hyperf/hyperf/pull/7821) Fixed PHP 8.1 deprecation warnings caused by null array offsets in `BelongsTo` and `MorphTo` relationships.
 - [#7830](https://github.com/hyperf/hyperf/pull/7830) Fixed crontab command tasks closing worker-exit coordinator and failing other tasks.
+
+## Optimized
+
+- [#7833](https://github.com/hyperf/hyperf/pull/7833) Optimized the constraint of `egulias/email-validator` to `^3.0 || ^4.0` for `hyperf/validation`.
 
 # v3.2.5 - 2026-09-15
 
